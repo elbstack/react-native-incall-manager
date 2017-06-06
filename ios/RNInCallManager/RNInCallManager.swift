@@ -87,7 +87,7 @@ class RNInCallManager: NSObject, AVAudioPlayerDelegate {
 
         // --- auto is always true on ios
         if self.media == "video" {
-            self.incallAudioMode = AVAudioSessionModeVideoChat
+            self.incallAudioMode = AVAudioSessionModeGameChat
         } else {
             self.incallAudioMode = AVAudioSessionModeVoiceChat
         }
